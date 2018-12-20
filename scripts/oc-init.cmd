@@ -12,7 +12,7 @@
 
 
 :: Start the OpenShift cluster
-oc cluster up
+:: oc cluster up
 
 
 :: Give developer cluster-admin rights

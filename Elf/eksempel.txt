@@ -23,3 +23,10 @@ add config file to elf (deployment) /config
 byg igen
 
 se at loggen persisteres
+
+
+oc export dc --as-template=elf elf > elf.yml
+
+slet deployment
+
+oc process -f elf.yml
