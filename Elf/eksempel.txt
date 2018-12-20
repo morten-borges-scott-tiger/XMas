@@ -1,0 +1,25 @@
+oc cluster up
+
+init
+
+Gennemgå hvad der er sket
+
+Vis et kald
+
+Vis log
+
+scale down, scale up
+
+Loggen er væk!
+
+Lav storage claim og tilføj /log til deployment config
+
+Lav config map
+
+oc create configmap elf-app-properties --from-file=config.properties
+
+add config file to elf (deployment) /config
+
+byg igen
+
+se at loggen persisteres
